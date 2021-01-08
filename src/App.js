@@ -7,7 +7,7 @@ function App() {
       <div className="column nine wide">
         <h1>Mi app de búsqueda en wikipedia</h1>
         <Search/>
-        <h4>2021 - Josué Aquino</h4>
+        <h4>2021 - <a href="//jaquino.ml" target="_blank" rel="noreferrer">Josué Aquino</a></h4>
       </div>
     </div>
   );
