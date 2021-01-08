@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Search from './Components/Search';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div className="ui grid container center aligned">
+      <div className="column nine wide">
+        <h1>Mi app de búsqueda en wikipedia</h1>
+        <Search/>
+        <h4>2021 - Josué Aquino</h4>
+      </div>
     </div>
   );
 }
